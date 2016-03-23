@@ -1,0 +1,96 @@
+[Data]
+DataCount=1
+
+[Data_1]
+Comment=Show/Hide Sublimetext w/ wmctrl
+DataCount=3
+Enabled=true
+Name=Maxrelax KDE
+SystemGroup=0
+Type=ACTION_DATA_GROUP
+
+[Data_1Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_1_1]
+Comment=Hide/Show SublimeText
+Enabled=true
+Name=Sublime Text [F1]
+Type=SIMPLE_ACTION_DATA
+
+[Data_1_1Actions]
+ActionsCount=1
+
+[Data_1_1Actions0]
+CommandURL=~/dev-local/livvy/hideshow-sublimetext.sh
+Type=COMMAND_URL
+
+[Data_1_1Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_1_1Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_1_1Triggers0]
+Key=F1
+Type=SHORTCUT
+Uuid={bf0518bc-8ebd-439d-ba4f-9657532b3e7c}
+
+[Data_1_2]
+Comment=Hide/Show Chrome
+Enabled=true
+Name=Google Chrome [F2]
+Type=SIMPLE_ACTION_DATA
+
+[Data_1_2Actions]
+ActionsCount=1
+
+[Data_1_2Actions0]
+CommandURL=~/dev-local/livvy/hideshow-chrome.sh
+Type=COMMAND_URL
+
+[Data_1_2Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_1_2Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_1_2Triggers0]
+Key=F2
+Type=SHORTCUT
+Uuid={214257ef-1792-4943-980c-8475a150791c}
+
+[Data_1_3]
+Comment=Hide/Show Zeal
+Enabled=true
+Name=Zeal [F4]
+Type=SIMPLE_ACTION_DATA
+
+[Data_1_3Actions]
+ActionsCount=1
+
+[Data_1_3Actions0]
+CommandURL=~/dev-local/livvy/hideshow-zeal.sh
+Type=COMMAND_URL
+
+[Data_1_3Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_1_3Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_1_3Triggers0]
+Key=F4
+Type=SHORTCUT
+Uuid={82379d9b-732d-491d-8a84-cc78e272b0e2}
+
+[Main]
+AllowMerge=false
+Version=2
