@@ -3,7 +3,7 @@
 
 #define the height in px of the top system-bar:
 TOP_MARGIN=0
-BOTTOM_MARGIN=60
+BOTTOM_MARGIN=0
 
 #sum in px of all horizontal borders:
 LEFTMARGIN=200
